@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profiili</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="tyyli.css">
+    <!--
+    <script src="skripti.js"></script>
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <nav>
+    <a href="#">Profiili</a>
+    <a href="#">Rekisteröityminen</a>
+    </nav>
+<div id="container" class="container">
+<h2>Rekisteröityminen</h2>
+<form>
+    <fieldset>
+    <legend>Henkilötiedot</legend>
+    <label for="nimi" class="label-responsive">Nimi:</label>
+    <input type="text" id="nimi" name="nimi"><br>
+    <label for="katuosoite" class="label-responsive">Katuosoite:</label>
+    <input type="text" id="katuosoite" name="katuosoite"><br>
+    <label for="postinumero" class="label-responsive">Postinumero:</label>
+    <input type="text" id="postinumero" name="postinumero"><br>
+    <label for="postitoimipaikka" class="label-responsive">Postitoimipaikka:</label>
+    <input type="text" id="postitoimipaikka" name="postitoimipaikka"><br>
+    <label for="puhelinnumero" class="label-responsive">Puhelinnumero:</label>
+    <input type="text" id="puhelinnumero" name="puhelinnumero"><br>
+    <label for="sahkoposti" class="label-responsive">Sähköpostiosoite:</label>
+    <input type="text" id="sahkoposti" name="sahkoposti"><br>
+    <label for="salasana" class="label-responsive">Salasana:</label>
+    <input type="password" id="salasana" name="salasana"><br>
+    </fieldset>
+    <fieldset>
+    <legend>Lisätiedot</legend>
+    <label for="osastot" class="label-additional">Mistä osastoista olet kiinnostunut?</label><br>
+    <input type="checkbox" id="muoti" name="muoti">
+    <label for="muoti">Muoti</label><br>
+    <input type="checkbox" id="urheilu" name="urheilu">
+    <label for="urheilu">Urheilu</label><br>
+    <input type="checkbox" id="sisustaminen" name="sisustaminen">
+    <label for="sisustaminen">Sisustaminen</label><br>
+    <input type="checkbox" id="pelit" name="pelit">
+    <label for="pelit">Pelit</label><br>
+    <input type="checkbox" id="elokuvat" name="elokuvat">
+    <label for="elokuvat">Elokuvat</label><br>
+    <label for="maksutapa" class="label-additional">Maksutapa:</label>
+    <select id="maksutapa" name="maksutapa">
+        <option value="sampo">Sampo</option>
+        <option value="nordea">Nordea</option>
+        <option value="osuuspankki">Osuuspankki</option>
+        <option value="aktia">Aktia</option>
+    </select><br>
+    <label for="palautetta" class="label-additional">Anna palautetta:</label><br>
+    <textarea id="palautetta" name="palautetta" rows="4" cols=""></textarea><br>
+    <label for="toimitusehdot" class="label-additional">Olen lukenut ja hyväksyn tuotteiden toimitusehdot.</label><br>
+    <input type="radio" id="kylla" name="toimitusehdot" value="kylla">
+    <label for="kylla">Kyllä</label><br>
+    <input type="radio" id="ei" name="toimitusehdot" value="ei">
+    <label for="ei">Ei</label><br>
+    <input type="submit" value="Rekisteröidy">
+    </fieldset>
+</form>
+    
+    </div>
+<footer>
+<p>&copy 2024, Web-ohjelmointikoulutus</p>
+</footer>
+</body>
+</html>
+
+
+yhteystiedot: nimi, katuosoite, postinumero, postitoimipaikka, puhelinnumero ja sähköpostiosoite (jokaiselle oma tekstikenttä)
+salasana (salasanakenttä)
+”Mistä osastoista olet kiinnostunut?” (Muoti, Urheilu, Sisustaminen, Pelit, Elokuvat - valintaruutu, joista voi valita useamman)
+Maksutapa (Sampo, Nordea, Osuuspankki, Aktia - pudotusvalikkona)
+”Anna palautetta.” (4-rivinen tekstialue)
+”Olen lukenut ja hyväksyn tuotteiden toimitusehdot.” (Kyllä / ei - radiopainike)
+Lähetyspainike

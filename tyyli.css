@@ -6,6 +6,38 @@ body {
   padding: 0;
 }
 
+[type='submit'] {
+  font-size: 1rem;
+  padding: 5px 10px;
+  margin: 10px 0;
+  cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: 20%;
+  
+}
+
+fieldset {
+  width: 100%; /* Ensures all fieldsets take the full width of their container */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  margin-top: 10px;
+}
+
+legend {
+  padding: 0 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+select,textarea {
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+textarea {
+  width: 90%;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -42,3 +74,21 @@ td {
   white-space: nowrap;
 }
 
+
+.label-responsive {
+  display: block;
+  margin-top: 10px;
+  width: 150px;
+}
+
+.label-additional {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+@media (min-width: 576px) {
+  .label-responsive {
+    display: inline-block;
+  }
+}
