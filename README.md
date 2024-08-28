@@ -15,3 +15,5 @@ cd yourproject
 
 # Install dependencies
 npm install
+
+# Eero kävi tutkimassa ja opetteli, ke 28.8.2024
