@@ -17,11 +17,11 @@
     </nav>
 <div id="container" class="container">
 <h2>Rekisteröityminen</h2>
-<form>
+<form method="POST">
     <fieldset>
     <legend>Henkilötiedot</legend>
     <label for="nimi" class="label-responsive">Nimi:</label>
-    <input type="text" id="nimi" name="nimi"><br>
+    <input type="text" id="nimi" name="nimi" required><br>
     <label for="katuosoite" class="label-responsive">Katuosoite:</label>
     <input type="text" id="katuosoite" name="katuosoite"><br>
     <label for="postinumero" class="label-responsive">Postinumero:</label>
@@ -72,12 +72,3 @@
 </footer>
 </body>
 </html>
-
-
-yhteystiedot: nimi, katuosoite, postinumero, postitoimipaikka, puhelinnumero ja sähköpostiosoite (jokaiselle oma tekstikenttä)
-salasana (salasanakenttä)
-”Mistä osastoista olet kiinnostunut?” (Muoti, Urheilu, Sisustaminen, Pelit, Elokuvat - valintaruutu, joista voi valita useamman)
-Maksutapa (Sampo, Nordea, Osuuspankki, Aktia - pudotusvalikkona)
-”Anna palautetta.” (4-rivinen tekstialue)
-”Olen lukenut ja hyväksyn tuotteiden toimitusehdot.” (Kyllä / ei - radiopainike)
-Lähetyspainike
