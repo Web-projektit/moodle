@@ -6,6 +6,12 @@ body {
   padding: 0;
 }
 
+input,select,textarea {
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  padding: 4px;
+}
+
 [type='submit'] {
   font-size: 1rem;
   padding: 5px 10px;
@@ -79,6 +85,8 @@ td {
   display: block;
   margin-top: 10px;
   width: 150px;
+  padding-right: 10px;
+  white-space: nowrap;
 }
 
 .label-additional {
