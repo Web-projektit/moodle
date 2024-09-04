@@ -1,0 +1,505 @@
+{
+    "notes": [
+        {
+          "id": "1",
+          "content": "HTML is easy",
+          "important": true
+        },
+        {
+          "id": "2",
+          "content": "Browser can execute only JavaScript",
+          "important": false
+        },
+        {
+          "id": "3",
+          "content": "GET and POST are the most important methods of HTTP protocol",
+          "important": true
+        },
+        {
+          "id": "4",
+          "content": "CSS allows you to style HTML elements",
+          "important": true
+        },
+        {
+          "id": "5",
+          "content": "JavaScript adds interactivity to web pages",
+          "important": true
+        },
+        {
+          "id": "6",
+          "content": "Responsive design makes websites look good on all devices",
+          "important": true
+        },
+        {
+          "id": "7",
+          "content": "HTML5 introduced new semantic elements",
+          "important": false
+        },
+        {
+          "id": "8",
+          "content": "The DOM represents the page structure as a tree",
+          "important": true
+        },
+        {
+          "id": "9",
+          "content": "AJAX allows updating parts of a page without reloading",
+          "important": true
+        },
+        {
+          "id": "10",
+          "content": "HTTP status codes indicate the result of a request",
+          "important": true
+        },
+        {
+          "id": "11",
+          "content": "JSON is commonly used for data exchange in web applications",
+          "important": true
+        },
+        {
+          "id": "12",
+          "content": "Session storage stores data for the session's lifetime",
+          "important": false
+        },
+        {
+          "id": "13",
+          "content": "Local storage persists data across browser sessions",
+          "important": false
+        },
+        {
+          "id": "14",
+          "content": "Cookies can store small amounts of data for long-term use",
+          "important": true
+        },
+        {
+          "id": "15",
+          "content": "CSS Grid allows complex layouts with fewer lines of code",
+          "important": true
+        },
+        {
+          "id": "16",
+          "content": "CSS Flexbox helps align items within a container",
+          "important": true
+        },
+        {
+          "id": "17",
+          "content": "Web APIs provide access to various browser features",
+          "important": true
+        },
+        {
+          "id": "18",
+          "content": "Promises in JavaScript allow handling asynchronous operations",
+          "important": true
+        },
+        {
+          "id": "19",
+          "content": "Async/await simplifies working with promises",
+          "important": true
+        },
+        {
+          "id": "20",
+          "content": "Arrow functions provide a more concise syntax for functions",
+          "important": false
+        },
+        {
+          "id": "21",
+          "content": "Event delegation improves performance in dynamic web apps",
+          "important": false
+        },
+        {
+          "id": "22",
+          "content": "Virtual DOM improves performance in modern frameworks",
+          "important": true
+        },
+        {
+          "id": "23",
+          "content": "React uses a component-based architecture",
+          "important": true
+        },
+        {
+          "id": "24",
+          "content": "Vue.js is a progressive JavaScript framework",
+          "important": false
+        },
+        {
+          "id": "25",
+          "content": "Angular is a full-fledged framework for building large applications",
+          "important": true
+        },
+        {
+          "id": "26",
+          "content": "Webpack bundles multiple JavaScript files into one",
+          "important": false
+        },
+        {
+          "id": "27",
+          "content": "ES6 introduced let and const for block-scoped variables",
+          "important": true
+        },
+        {
+          "id": "28",
+          "content": "WebAssembly allows high-performance code in the browser",
+          "important": false
+        },
+        {
+          "id": "29",
+          "content": "PWAs provide a native-like experience on the web",
+          "important": true
+        },
+        {
+          "id": "30",
+          "content": "Service workers enable offline functionality in PWAs",
+          "important": true
+        },
+        {
+          "id": "31",
+          "content": "OAuth is a widely used protocol for authorization",
+          "important": true
+        },
+        {
+          "id": "32",
+          "content": "Cross-origin requests are controlled by CORS policy",
+          "important": true
+        },
+        {
+          "id": "33",
+          "content": "JavaScript hoists variable declarations to the top of their scope",
+          "important": false
+        },
+        {
+          "id": "34",
+          "content": "Babel transpiles modern JavaScript into backwards-compatible code",
+          "important": false
+        },
+        {
+          "id": "35",
+          "content": "TypeScript adds static types to JavaScript",
+          "important": true
+        },
+        {
+          "id": "36",
+          "content": "CSS preprocessors like Sass add variables and functions to CSS",
+          "important": true
+        },
+        {
+          "id": "37",
+          "content": "REST APIs use standard HTTP methods for CRUD operations",
+          "important": true
+        },
+        {
+          "id": "38",
+          "content": "GraphQL allows flexible querying of data in APIs",
+          "important": true
+        },
+        {
+          "id": "39",
+          "content": "SEO optimization improves a website's search engine ranking",
+          "important": true
+        },
+        {
+          "id": "40",
+          "content": "Web fonts improve typography across devices and browsers",
+          "important": false
+        },
+        {
+          "id": "41",
+          "content": "SVGs are scalable and lightweight for icons and graphics",
+          "important": true
+        },
+        {
+          "id": "42",
+          "content": "CDNs improve website performance by caching assets globally",
+          "important": true
+        },
+        {
+          "id": "43",
+          "content": "Minifying CSS and JavaScript improves website load speed",
+          "important": true
+        },
+        {
+          "id": "44",
+          "content": "Progressive enhancement ensures accessibility for all users",
+          "important": true
+        },
+        {
+          "id": "45",
+          "content": "Graceful degradation maintains core functionality in older browsers",
+          "important": true
+        },
+        {
+          "id": "46",
+          "content": "The box model defines how elements are sized in CSS",
+          "important": true
+        },
+        {
+          "id": "47",
+          "content": "Padding adds space inside an element's border",
+          "important": true
+        },
+        {
+          "id": "48",
+          "content": "Margin adds space outside an element's border",
+          "important": true
+        },
+        {
+          "id": "49",
+          "content": "CSS specificity determines which styles are applied",
+          "important": true
+        },
+        {
+          "id": "50",
+          "content": "Z-index controls the stacking order of overlapping elements",
+          "important": true
+        },
+        {
+          "id": "51",
+          "content": "CSS animations add dynamic movement to web pages",
+          "important": false
+        },
+        {
+          "id": "52",
+          "content": "Flexbox makes it easier to create flexible layouts",
+          "important": true
+        },
+        {
+          "id": "53",
+          "content": "HTML forms allow users to send data to the server",
+          "important": true
+        },
+        {
+          "id": "54",
+          "content": "Form validation ensures users submit correct data",
+          "important": true
+        },
+        {
+          "id": "55",
+          "content": "JavaScript closures allow functions to access outer variables",
+          "important": false
+        },
+        {
+          "id": "56",
+          "content": "Modules in JavaScript make code more modular and reusable",
+          "important": true
+        },
+        {
+          "id": "57",
+          "content": "APIs allow communication between different software components",
+          "important": true
+        },
+        {
+          "id": "58",
+          "content": "Testing ensures code works as expected and prevents bugs",
+          "important": true
+        },
+        {
+          "id": "59",
+          "content": "Linting tools help maintain code quality by identifying issues",
+          "important": true
+        },
+        {
+          "id": "60",
+          "content": "HTTPS ensures secure communication between client and server",
+          "important": true
+        },
+        {
+          "id": "61",
+          "content": "WebSocket provides full-duplex communication between client and server",
+          "important": true
+        },
+        {
+          "id": "62",
+          "content": "The event loop in JavaScript manages asynchronous operations",
+          "important": true
+        },
+        {
+          "id": "63",
+          "content": "JSON.stringify() converts JavaScript objects to JSON format",
+          "important": true
+        },
+        {
+          "id": "64",
+          "content": "JSON.parse() converts JSON strings back into JavaScript objects",
+          "important": true
+        },
+        {
+          "id": "65",
+          "content": "Modern browsers come with built-in developer tools",
+          "important": true
+        },
+        {
+          "id": "66",
+          "content": "HTML meta tags provide information about the page",
+          "important": true
+        },
+        {
+          "id": "67",
+          "content": "A 404 error means the requested resource was not found",
+          "important": true
+        },
+        {
+          "id": "68",
+          "content": "A 500 error indicates a server-side issue",
+          "important": true
+        },
+        {
+          "id": "69",
+          "content": "A 200 status means the request was successful",
+          "important": true
+        },
+        {
+          "id": "70",
+          "content": "A 301 status indicates a permanent redirect",
+          "important": false
+        },
+        {
+          "id": "71",
+          "content": "A 302 status indicates a temporary redirect",
+          "important": false
+        },
+        {
+          "id": "72",
+          "content": "Git is a version control system for tracking code changes",
+          "important": true
+        },
+        {
+          "id": "73",
+          "content": "GitHub is a platform for hosting and collaborating on code repositories",
+          "important": true
+        },
+        {
+          "id": "74",
+          "content": "npm is the default package manager for Node.js",
+          "important": true
+        },
+        {
+          "id": "75",
+          "content": "JavaScript frameworks provide structure for building web applications",
+          "important": true
+        },
+        {
+          "id": "76",
+          "content": "A front-end developer focuses on the user interface and experience",
+          "important": true
+        },
+        {
+          "id": "77",
+          "content": "A back-end developer focuses on server-side logic and databases",
+          "important": true
+        },
+        {
+          "id": "78",
+          "content": "A full-stack developer works on both front-end and back-end",
+          "important": true
+        },
+        {
+          "id": "79",
+          "content": "Docker containers package applications and their dependencies",
+          "important": true
+        },
+        {
+          "id": "80",
+          "content": "A/B testing helps optimize web interfaces",
+          "important": false
+        },
+        {
+          "id": "81",
+          "content": "Heatmaps show how users interact with a webpage",
+          "important": false
+        },
+        {
+          "id": "82",
+          "content": "UI stands for User Interface",
+          "important": true
+        },
+        {
+          "id": "83",
+          "content": "UX stands for User Experience",
+          "important": true
+        },
+        {
+          "id": "84",
+          "content": "Unit tests test individual pieces of code",
+          "important": true
+        },
+        {
+          "id": "85",
+          "content": "Integration tests ensure different modules work together",
+          "important": true
+        },
+        {
+          "id": "86",
+          "content": "End-to-end tests simulate real-world user interactions",
+          "important": true
+        },
+        {
+          "id": "87",
+          "content": "A build tool automates tasks like minification and bundling",
+          "important": true
+        },
+        {
+          "id": "88",
+          "content": "The Document Object Model represents the structure of a webpage",
+          "important": true
+        },
+        {
+          "id": "89",
+          "content": "Event bubbling allows events to propagate up the DOM tree",
+          "important": false
+        },
+        {
+          "id": "90",
+          "content": "Event capturing allows events to be caught as they travel down the DOM tree",
+          "important": false
+        },
+        {
+          "id": "91",
+          "content": "Cross-browser compatibility ensures the site works across all browsers",
+          "important": true
+        },
+        {
+          "id": "92",
+          "content": "Favicon is the small icon that appears next to the website title in the browser tab",
+          "important": false
+        },
+        {
+          "id": "93",
+          "content": "Web components allow you to create reusable HTML elements",
+          "important": true
+        },
+        {
+          "id": "94",
+          "content": "API keys are used to authenticate requests to services",
+          "important": true
+        },
+        {
+          "id": "95",
+          "content": "JWT tokens are used for secure authentication between client and server",
+          "important": true
+        },
+        {
+          "id": "96",
+          "content": "DevOps practices streamline development, deployment, and monitoring",
+          "important": true
+        },
+        {
+          "id": "97",
+          "content": "A content delivery network (CDN) improves page load speed",
+          "important": true
+        },
+        {
+          "id": "98",
+          "content": "Mobile-first design focuses on optimizing for smaller screens first",
+          "important": true
+        },
+        {
+          "id": "99",
+          "content": "Lazy loading defers loading of non-critical resources until needed",
+          "important": true
+        },
+        {
+          "id": "100",
+          "content": "Web accessibility ensures websites are usable by everyone, including people with disabilities",
+          "important": true
+        }
+      ]
+      
+  }

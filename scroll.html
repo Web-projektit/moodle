@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Single Page</title>
+        <style>
+        </style>
+        <script>
+            const base = 'http://localhost:3001/notes/';
+            // Shows given section
+            function showSection(section) {
+                const url = base + section;
+                // Find section text from server
+                fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    // Log text and display on page
+                    console.log(data);
+                    document.querySelector('#content').innerHTML = data.content;
+                });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+                // Add button functionality
+                document.querySelectorAll('button').forEach(button => {
+                    button.onclick = function() {
+                        showSection(this.dataset.section);
+                    };
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Hello!</h1>
+        <button data-section="1">Section 1</button>
+        <button data-section="2">Section 2</button>
+        <button data-section="3">Section 3</button>
+        <div id="content">
+        </div>
+    </body>
+</html>
